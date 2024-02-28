@@ -1,3 +1,11 @@
+/*
+File: pong.ino
+Author: Max Svensby
+Date: 2024-02-28
+Description: This is a game where you play as a paddle, with two players. There is a ball that bounces around and your goal is to block the ball from surpassing your paddle.
+The two players score is displayed on the top side of the screen. If one of the players score is 8 then they win and the game ends.
+*/
+
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
